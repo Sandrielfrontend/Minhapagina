@@ -1,0 +1,66 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+ background-color: black;
+}
+
+header{
+  padding: auto;
+}
+nav{
+  padding: 0;
+  height: 39px;
+}
+ul{
+  margin-top: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  vertical-align: center;
+  padding: 16px;
+}
+.borda{
+  border-width: 2px;
+  border-style: solid;
+  border-color: blue;
+  border-radius: 5px;
+  padding: 5px;
+  
+  
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+img{
+  height: 150px;
+  padding: 5px;
+  border-radius: 20%;
+  border: 2px solid;
+  border-color: blue;
+}
+
+.center{
+    text-align: center;
+    margin-top: 30px;
+}
+
+h1{
+    color: blue;
+}
+.contact-form input{
+  width: 100%;
+  padding: 8px 0px;
+  margin: 8px 0px;
+}
+.contact-form input[type=text]{
+  height: 100px;
+}
+button{
+  background-color: white;
+  border: solid;
+  width: 100px;
+  height: 30px;
+  border-color: blue;
+  border-radius: 10%;
+}
